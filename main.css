@@ -1,0 +1,86 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+    border: 0;
+}
+
+/* WRAPPER */
+.wrapper {
+  width: 40%;
+}
+
+/* BTN */
+.btn {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: #fff;
+}
+.submit {
+    background-color: rgb(62, 62, 200);
+    color: aliceblue;
+}
+.clear {
+    background-color: red;
+}
+.completed {
+    background-color: green;
+}
+
+.input {
+    padding-left: 1rem ;
+}
+
+/* BTN END */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.x {
+  background-color: burlywood;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.ok-no {
+    display: flex;
+    gap: 1rem;
+}
+
+.line {
+    text-decoration:line-through;
+} 
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
